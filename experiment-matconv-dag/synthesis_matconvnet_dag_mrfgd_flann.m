@@ -23,7 +23,7 @@ addpath(genpath(path_flann));
 % input
 name_input_net = 'caffe_bvlc_googlenet_model-dag.mat';
 name_input_img_ini = 'bath_full.jpg';
-name_input_example_mrf = [{'bath_full.jpg'}];
+name_input_example_mrf = [{'baroque.jpg'} {'bath_full.jpg'}];
 name_input_example_gd = 'baroque.jpg';
 
 % settings
